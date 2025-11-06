@@ -18,6 +18,14 @@ config/icon="res://icon.svg"
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 
+[file_customization]
+
+folder_colors={
+"res://☽ FILES ☾/": "yellow",
+"res://☽ SCENES ☾/": "yellow",
+"res://☽ SCRIPTS ☾/": "yellow"
+}
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
